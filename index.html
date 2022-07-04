@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--This is Font Awesome-->
+		<script src="https://kit.fontawesome.com/12bc923b2b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
     <title>Ben Mason's Portfolio</title>
 </head>
@@ -29,16 +31,41 @@
           <!--skills section-->
           
           <section id="skills">
-            <h3>Skills</h3>
-              <h4>Full-stack Software Engineer</h4>
-            <h4>Broad and Malleable Skillset</h4>
-            <h4>My specialty is whatever your business needs; if your needs change, so does my specialty.</h4>
+            <div class="skills-header">
+              <img src="https://cdn.pixabay.com/photo/2014/04/02/16/18/toolbox-306888_960_720.png"/>
+              <h2>Skills</h2>
+            </div>
+            <div class="skills-display">
+              <div class="skill-wrapper">
+                <div class="skill-category">
+                  <h2>Fundamentals</h2>
+                  <i class="fa-brands fa-ubuntu skill-icon"> Linux command line</i>
+                  <i class="fa-brands fa-git-alt skill-icon"> Git</i>
+                </div>
+              </div>
+              <div class="skill-wrapper">
+               <div class="skill-category">
+                 <h2>Languages</h2>
+                 <i class="fa-brands fa-html5 skill-icon"> HTML</i>
+                 <i class="fa-brands fa-css3 skill-icon"> CSS</i>
+                 <i class="fa-brands fa-js-square skill-icon"> Javascript</i>
+                 <i class="fa-brands fa-python skill-icon"> Python</i>
+                </div>
+              </div>
+              <div class="skill-wrapper">
+                <div class="skill-category">
+                <h2>Frameworks & Tools</h2>
+                  <i class="fa-brands fa-react skill-icon"> React</i>
+                  <i class="fa-brands fa-bootstrap skill-icon"> Bootstrap</i>
+                </div>
+              </div>
+            </div>
           </section>
 
         <!--projects section-->
           
       <section id="projects">
-        <h3>Portfolio</h3>
+        <h2 class="portfolio-heading">Portfolio</h2>
         <div class="projects-grid">
           <div class="project-tile">
             <a id="Youtube" class="project-title" target="_blank" href="https://codepen.io/HexagonBen/full/RwjWzaj">ECG Interpretation Technical Documentation Page</a>
