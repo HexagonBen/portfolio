@@ -118,7 +118,7 @@
   #projects {
     min-height: 100vh;
     text-align: center;
-    padding: 5rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -150,19 +150,59 @@
     grid-template-rows: 1fr 1fr;
     grid-gap: 4rem;
   }
+  .project-wrapper {
+    color: white;
+    font-size: 1.5rem;
+  }
   .project-tile {
-    background-color: black;
     height: 10rem;
     color: white;
     padding: 1rem;
     border: 2px solid white;
     border-radius: 1rem;
     box-shadow: 0px 0px 10px 2.5px linen;
+    margin: 1rem 0rem;
+  }
+  .project-tile:hover {
+    box-shadow: 0px 0px 20px 5px rgba(46,255,220,0.9);
+    border: 2px solid black;
+  }
+  .source-code {
+    color: white;
+    text-decoration: none;
+  }
+  .source-code:hover {
+    color: rgba(46,255,220,0.9);
+    text-shadow: rgba(46,255,220,0.9) 0px 0px 16px;
   }
   .project-title {
     font-size: 1.5rem;
     text-decoration: none;
     color: linen;
+  }
+  #ECG-interpretation {
+    background-image: url("./images/ECG-interpretation.png");
+    background-size: cover;
+  }
+  #cryptocurrency-survey {
+    background-image: url("./images/cryptocurrency-survey.png");
+    background-size: cover;
+  }
+  #markdown-previewer {
+    background-image: url("./images/markdown-previewer.png");
+    background-size: cover;
+  }
+  #drum-machine {
+    background-image: url("./images/drum-machine.png");
+    background-size: cover;
+  }
+  #pomodoro-clock {
+    background-image: url("./images/pomodoro-clock.png");
+    background-size: cover;
+  }
+  #javascript-calculator {
+    background-image: url("./images/javascript-calculator.png");
+    background-size: cover;
   }
 
   #contact {
